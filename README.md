@@ -104,7 +104,8 @@ Derleyici, hello (Windows'ta hello.exe) adında bir çalıştırılabilir dosya 
 
 Resim :
 
-![Resim](https://iili.io/dsNLXPj.png)
+https://iili.io/dsNDsBn.png
+![Resim](https://iili.io/dsNDsBn.png)
 
 
 
@@ -126,7 +127,7 @@ Ekranda "Hello, World!" mesajını görmelisiniz. Tebrikler! İlk D programını
 
 Resim : 
 
-![Resim](https://i.ibb.co/1GG87kP/resim-2024-09-23-231920280.png)
+![Resim](https://iili.io/dsNLXPj.png)
 
 ## 4. Derleyici Seçenekleri
 
