@@ -139,7 +139,7 @@ Bu komut, derleyici hakkında bilgi verecek ve kullanılabilir seçenekleri list
 
 Resim : 
 
-![Resim](https://i.ibb.co/BrSWRBj/resim-2024-09-23-232135197.png)
+![Resim](https://iili.io/dsOKBXj.png)
 
 ## 4.1 Önerilen Seçenekler
 
@@ -168,4 +168,4 @@ Bu komut, programı otomatik olarak çalıştıracak ve "Hello, World!" mesajın
 
 Resim : 
 
-![Resim](https://i.ibb.co/LY6tLvk/DMD-Settings-Run.png)
+![Resim](https://iili.io/dsOx78Q.png)
