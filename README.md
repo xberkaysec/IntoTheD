@@ -104,10 +104,7 @@ Derleyici, hello (Windows'ta hello.exe) adında bir çalıştırılabilir dosya 
 
 Resim :
 
-https://iili.io/dsNDsBn.png
 ![Resim](https://iili.io/dsNDsBn.png)
-
-
 
 3.3 Hataları Düzeltme
 
