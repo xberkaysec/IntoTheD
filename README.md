@@ -169,3 +169,97 @@ Bu komut, programı otomatik olarak çalıştıracak ve "Hello, World!" mesajın
 Resim : 
 
 ![Resim](https://iili.io/dsOx78Q.png)
+
+# D Programlama Dili ile "Hello, World!" Programına Derinlemesine Bakış
+
+## 1. Giriş: IDE Kullanımı
+
+D programlama dilinde geliştirme yaparken, yalnızca derleyici kullanmakla kalmayıp bir Entegre Geliştirme Ortamı (IDE) de kurmayı düşünebilirsiniz. 
+IDE'ler, program yazma, derleme ve hata ayıklama adımlarını basitleştirerek geliştirme sürecini kolaylaştırmak için tasarlanmıştır. 
+Eğer bir IDE kurarsanız, programınızı derlemek ve çalıştırmak sadece bir tuşa basmak veya bir düğmeye tıklamak kadar kolay olacaktır. 
+Ancak, terminal penceresinde manuel olarak program derleme işlemini öğrenmenizi öneririm. 
+Daha fazla bilgi için ![](dlang.org)'daki IDE'ler sayfasını ziyaret edebilirsiniz.
+
+## 2. "Hello, World!" Programının İçeriği
+
+2.1 D Dilinin Temel Özellikleri
+
+"Hello, World!" programı, D dilinin birçok temel konseptini içerir:
+
+- Temel Özellikler: Her dilin kendine özgü sözdizimi, temel türler, anahtar kelimeler ve kuralları vardır.
+Parantezler, noktalı virgüller ve main, void gibi kelimeler D dilinin kurallarına göre yerleştirilmiştir.
+Bu, İngilizce dilindeki cümle yapısına benzer.
+  
+- Kütüphane ve Fonksiyon: Temel özellikler yalnızca dilin yapısını tanımlar.
+Fonksiyonlar ve kullanıcı türleri tanımlamak için kullanılırlar ve bunlar da kütüphaneleri oluşturur.
+Kütüphaneler, program parçalarının yeniden kullanılabilir koleksiyonlarıdır.
+Örneğin, writeln D'nin standart kütüphanesindeki bir fonksiyondur ve metin yazdırmak için kullanılır.
+
+- Modül: Kütüphane içeriği, belirli görev türlerine göre gruplanır.
+Bu gruba modül denir. Bu programda kullanılan tek modül std.stdio'dur ve veri girişi/çıkışını yönetir.
+
+2.2 Karakter ve String
+
+- String: "Hello, World!" gibi ifadeler string olarak adlandırılır; stringlerin elemanlarına ise karakter denir.
+Bu programda bulunan tek string, 'H', 'e', 'w', '!', gibi karakterleri içerir.
+
+2.3 İşlem Sırası
+
+Programlar, belirli bir sırada işlemleri gerçekleştirerek görevlerini tamamlarlar. 
+Bu görevler, main adlı fonksiyonda yazılan işlemlerle başlar. 
+Bu programda tek işlem "Hello, World!" yazdırmaktır.
+
+2.4 Büyük/Küçük Harf Hassasiyeti
+
+Stringler içinde istediğiniz karakteri yazabilirsiniz; ancak diğer karakterleri programda göründüğü gibi tam olarak yazmalısınız. 
+D programlarında büyük/küçük harf kullanımı önemlidir. Örneğin, writeln ve Writeln iki farklı isimdir.
+
+2.5 Anahtar Kelimeler
+
+Anahtar kelimeler, dilin temel özelliklerinin bir parçası olan özel kelimelerdir. 
+Bu kelimeler dilin kendisi için ayrılmıştır ve başka bir amaçla kullanılamazlar. 
+
+Bu programda iki anahtar kelime bulunmaktadır:
+
+- import: Bir modülü programa tanıtmak için kullanılır.
+- void: Burada "hiçbir şey döndürmüyor" anlamına gelir.
+
+2.6 D Anahtar Kelimeleri Listesi
+
+D dilinde birçok anahtar kelime bulunmaktadır. Bunlardan bazıları:
+
+```d
+- abstract
+- alias
+- asm
+- assert
+- bool
+- break
+- case
+- catch
+- class
+- const
+- continue
+- delegate
+- delete
+- do
+- double
+- else
+- enum
+- export
+- extern
+- false
+- final
+- float
+- for
+- if
+- import
+- int
+- module
+- private
+- public
+- return
+- void
+```
+
+Bu anahtar kelimeleri ilerleyen bölümlerde ele alacağız. 
