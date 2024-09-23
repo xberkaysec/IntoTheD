@@ -169,3 +169,4 @@ Bu komut, programı otomatik olarak çalıştıracak ve "Hello, World!" mesajın
 Resim : 
 
 ![Resim](https://i.ibb.co/6sKvz3n/resim-2024-09-22-141915811.png)
+![Resim](https://i.ibb.co/LY6tLvk/DMD-Settings-Run.png)
